@@ -15,7 +15,7 @@ function multiplicacion (a,b){
 
 //Funcion division
 function division (a,b){
-    if(b!==0){
+    if(b===0){
         return "Error en la división, 0 no es divisible"
     }
     return a/b;
