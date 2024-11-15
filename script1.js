@@ -1,16 +1,16 @@
 //Funcion suma
 function suma (a,b){
-    return a + b;
+    return a+b;
 }
 
 //Funcion resta
 function resta (a,b){
-    return a - b;
+    return a-b;
 }
 
 //Funcion multiplicacion
 function multiplicacion (a,b){
-    return a * b;
+    return a*b;
 }
 
 //Funcion division
@@ -18,7 +18,7 @@ function division (a,b){
     if(b!==0){
         return "Error en la división, 0 no es divisible"
     }
-    return a / b;
+    return a/b;
 }
 
 //funcion calculadora
@@ -32,9 +32,9 @@ function calculadora(a, b, operacion){
             return multiplicacion (num1,num2);
         case 'division':
             if(num2!==0){
-                return "Error en la división, 0 no es divisible"
-            }else{
                 return division (num1,num2);
+            }else{
+                return "Error en la división, 0 no es divisible"                
             }
     }
 }
