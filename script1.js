@@ -16,7 +16,7 @@ function multiplicacion (a,b){
 //Funcion division
 function division (a,b){
     if(b===0){
-        return "Error en la división, 0 no es divisible"
+        return "Error en la división, ningun numero es divisible entre 0"
     }
     return a/b;
 }
@@ -34,7 +34,7 @@ function calculadora(num1, num2, operacion){
             if(num2!==0){
                 return division (num1,num2);
             }else{
-                return "Error en la división, 0 no es divisible"                
+                return "Error en la división, ningun numero es divisible entre 0"                
             }
     }
 }
