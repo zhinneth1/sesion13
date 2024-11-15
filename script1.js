@@ -38,9 +38,9 @@ function calculadora(a, b, operacion){
             }
     }
 }
-let num1 = parseFloat(prompt("Ingrese primer numero"));
-let num2 = parseFloat(prompt("Ingrese segundo numero"));
+let numero1 = parseFloat(prompt("Ingrese primer numero"));
+let numero2 = parseFloat(prompt("Ingrese segundo numero"));
 let operacion = parseFloat(prompt("Ingrese operación a realizar(suma,resta,division o multiplicacion)"));
 
-let resultado = calculadora(num1, num2, operacion);
+let resultado = calculadora(numero1, numero2, operacion);
 document.write("El resultado es:  " + resultado);
