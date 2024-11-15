@@ -22,7 +22,7 @@ function division (a,b){
 }
 
 //funcion calculadora
-function calculadora(num1, num2, operacion){
+function calculadora(a, b, operacion){
     switch(operacion){
         case 'suma':
             return suma (num1,num2);
@@ -38,9 +38,9 @@ function calculadora(num1, num2, operacion){
             }
     }
 }
-let numero1 = parseFloat(prompt("Ingrese numero"));
-let numero2 = parseFloat(prompt("Ingrese numero"));
+let num1 = parseFloat(prompt("Ingrese primer numero"));
+let num2 = parseFloat(prompt("Ingrese segundo numero"));
 let operacion = parseFloat(prompt("Ingrese operación a realizar(suma,resta,division o multiplicacion)"));
 
-let resultado = calculadora(numero1, numero2, operacion);
+let resultado = calculadora(num1, num2, operacion);
 document.write("El resultado es:  " + resultado);
