@@ -34,7 +34,7 @@ function calculadora(a, b, operacion){
             if(num2!==0){
                 return "Error en la división, 0 no es divisible"
             }else{
-                return suma (num1,num2);
+                return division (num1,num2);
             }
     }
 }
