@@ -22,7 +22,7 @@ function division (a,b){
 }
 
 //funcion calculadora
-function calculadora(a, b, operacion){
+function calculadora(num1, num2, operacion){
     switch(operacion){
         case 'suma':
             return suma (num1,num2);
